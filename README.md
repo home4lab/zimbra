@@ -10,7 +10,7 @@ sudo rm /etc/hostname
 sudo sh -c 'echo $your_hostname >> /etc/resolv.conf'
 
 sudo vim /etc/hosts
-# 192.168.1.1	mail.free.com mail
+192.168.1.1	mail.free.com mail
 
 sudo systemctl disable systemd-resolved
 sudo systemctl stop systemd-resolved
